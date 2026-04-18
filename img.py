@@ -1,8 +1,8 @@
 import requests
 import streamlit as st
 
-API_URL = "https://api-inference.huggingface.co/models/stabilityai/stable-diffusion-3-medium-diffusers"
-headers = {"Authorization": "Bearer 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"}
+API_URL = ""
+headers = {"Authorization": ""}
 
 def query(payload):
 	response = requests.post(API_URL, headers=headers, json=payload)
